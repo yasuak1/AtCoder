@@ -1,6 +1,5 @@
 direct = [-1, 0, 1].repeated_permutation(2).to_a
 direct.delete([0, 0])
-p direct
 
 n = gets.chomp.to_i
 array = Array.new
